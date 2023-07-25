@@ -4,3 +4,4 @@ jobs:
       - hello: echo "Hello world!"
       - done: echo "Done"
     image: node:18
+    requires: ~commit
