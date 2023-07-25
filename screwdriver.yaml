@@ -1,0 +1,6 @@
+jobs:
+  main:
+    steps:
+      - hello: echo "Hello world!"
+      - done: echo "Done"
+    image: node:18
