@@ -3,6 +3,6 @@ jobs:
     steps:
       - hello: echo "Hello world!"
       - done: echo "Done"
-      - show_filesystem: ls -la
+      - show_filesystem: ls -l
     image: node:18
     requires: ~commit
