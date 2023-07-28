@@ -4,5 +4,6 @@ jobs:
       - hello: echo "Hello world!"
       - done: echo "Done"
       - show_filesystem: ls -l
+      - sleep: sleep 10
     image: node:18
     requires: ~commit
